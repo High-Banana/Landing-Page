@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+button:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: .3s;
+}
+
 
 /* Nav Bar style section */
 nav{
@@ -72,6 +78,7 @@ ul li a:hover{
 
 #cards{
     display: flex;
+    gap: 3rem;
 }
 
 .cardDetails{
@@ -82,10 +89,16 @@ ul li a:hover{
     align-items: center;
 }
 
-.cardDetails img{
+.cardDetails a img{
    background-color: #3882F6;
    padding: 4px;
    border-radius: 7px;
+   height: 12em;
+   width: 15em;
+   transition: .3s;
+}
+.cardDetails a img:hover{
+   transform: scale(1.03);
 }
 
 /* Third Part */
@@ -128,4 +141,13 @@ ul li a:hover{
     color: white;
     border: 2px solid white;
     font-weight: bold;
+}
+
+/* Footer */
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 1.3rem;
 }
