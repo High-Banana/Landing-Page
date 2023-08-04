@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+
+/* Nav Bar style section */
 nav{
     display: flex;
     justify-content: space-between;
@@ -29,4 +31,31 @@ ul li a{
 
 ul li a:hover{
     color:orange;
+}
+
+/* Main style section, first part */
+#firstBody{
+    display: flex;
+    padding: 0.5rem 7rem;
+    gap: 4rem;
+    background-color: black;
+    color: white;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+    margin: auto;
+}
+
+#intro button{
+    width: 20%;
+    padding: 10px 30px;
+    border-radius: 7px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
 }
