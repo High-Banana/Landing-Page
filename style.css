@@ -33,7 +33,8 @@ ul li a:hover{
     color:orange;
 }
 
-/* Main style section, first part */
+/* Main style section */
+/* First part */
 #firstBody{
     display: flex;
     padding: 0.5rem 7rem;
@@ -58,4 +59,31 @@ ul li a:hover{
     color: white;
     font-size: 18px;
     font-weight: bold;
+}
+
+/* Second part */
+#secondBody{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#cards{
+    display: flex;
+}
+
+.cardDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.7rem;
+    align-items: center;
+}
+
+.cardDetails img{
+   background-color: #3882F6;
+   padding: 2px;
+   border-radius: 5px;
 }
